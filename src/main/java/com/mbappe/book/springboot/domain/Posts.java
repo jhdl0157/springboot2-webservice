@@ -11,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 ////////@Setter는 안만든다 .
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id
     //생성 규칙을 만들어준다.
     @GeneratedValue(strategy = GenerationType.IDENTITY)
