@@ -13,7 +13,6 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 public class IndexControllerTest {
-    //테스트코드 중
     @Autowired
     private TestRestTemplate restTemplate;
 
