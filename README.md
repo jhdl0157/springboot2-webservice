@@ -1,6 +1,15 @@
 ### 스프링부트와 AWS을 이용하여 배포하기
 ---
-사용한 기술
+## 개발 환경 
 
-<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+* Java 1.8
+* Springboot 2.1.9
+* Gradle 4.10.2
+* lombok
+* jpa
+* mustache
+* OAuth2
+* H2
+---
+
+수정 삭제가능한 게시판 구현과 구글,네이버,카카오 소셜 로그인 기능을 구현했습니다. 
